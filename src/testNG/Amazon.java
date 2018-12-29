@@ -39,7 +39,7 @@ public class Amazon {
 	@Test
 	public void iphone6()
 	{
-		log.info("Entering main method");
+		log.info("Entering iphone6 method");
 		 WebElement searchBox = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
 		 
 		 WebDriverWait wait = new WebDriverWait(driver,15);
@@ -52,6 +52,7 @@ public class Amazon {
 		 {
 			 System.out.println(list.getText());
 		 }
+		 log.info("Exit iphone6 method");
 		 
 	}
 	@AfterTest

@@ -1,2 +1,5 @@
 11:57:52.238 [main] INFO  testNG.Amazon - Entering main method
 16:31:11.904 [main] INFO  testNG.Amazon - Entering main method
+19:28:05.935 [main] INFO  testNG.Amazon - Entering main method
+19:30:06.405 [main] INFO  testNG.Amazon - Entering iphone6 method
+19:30:10.613 [main] INFO  testNG.Amazon - Exit iphone6 method
