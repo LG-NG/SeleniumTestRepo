@@ -29,6 +29,7 @@ public class Amazon {
 	
 	public void openURL ()
 	{
+		 log.info("Entering openURL method");
 		 driver = new ChromeDriver();
 		 driver.manage().window().maximize();
 		 driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -52,7 +53,7 @@ public class Amazon {
 		 {
 			 System.out.println(list.getText());
 		 }
-		 log.info("Exit iphone6 method");
+		 log.info("Exiting iphone6 method");
 		 
 	}
 	@AfterTest
